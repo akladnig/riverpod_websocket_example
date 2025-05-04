@@ -43,13 +43,4 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-android
-ios
-linux
-macos
-test
-web
-windows
-.metadata
-pubspec.lock
 lib/websocket_provider.g.dart

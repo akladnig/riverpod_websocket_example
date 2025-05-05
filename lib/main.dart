@@ -72,6 +72,7 @@ class _MyHomePageState extends ConsumerState<MyHomePage> {
 
   @override
   void dispose() {
+    ref.read(myWebSocketProvider.notifier).close();
     _controller.dispose();
     super.dispose();
   }

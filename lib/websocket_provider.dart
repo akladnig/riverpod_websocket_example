@@ -22,4 +22,8 @@ class MyWebSocket extends _$MyWebSocket {
   void send(String message) {
     channel.sink.add(message);
   }
+
+  void close() {
+    channel.sink.close;
+  }
 }
